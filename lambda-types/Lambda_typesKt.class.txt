@@ -1,0 +1,143 @@
+// class version 52.0 (52)
+// access flags 0x31
+public final class Lambda_typesKt {
+
+  // compiled from: lambda-types.kt
+
+  @Lkotlin/Metadata;(mv={1, 6, 0}, k=2, xi=48, d1={"\u0000\u0018\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u001a\u001c\u0010\u0000\u001a\u00020\u00012\u000e\u0008\u0004\u0010\u0002\u001a\u0008\u0012\u0004\u0012\u00020\u00010\u0003H\u0086\u0008\u00f8\u0001\u0000\u001a\u0006\u0010\u0004\u001a\u00020\u0001\u001a\u000e\u0010\u0005\u001a\u00020\u00012\u0006\u0010\u0002\u001a\u00020\u0006\u001a\u001a\u0010\u0007\u001a\u00020\u00012\u000c\u0010\u0002\u001a\u0008\u0012\u0004\u0012\u00020\u00010\u0003H\u0086\u0008\u00f8\u0001\u0000\u001a\u001c\u0010\u0008\u001a\u00020\u00012\u000e\u0008\u0008\u0010\u0002\u001a\u0008\u0012\u0004\u0012\u00020\u00010\u0003H\u0086\u0008\u00f8\u0001\u0000\u001a\u0014\u0010\u0009\u001a\u00020\u00012\u000c\u0010\u0002\u001a\u0008\u0012\u0004\u0012\u00020\u00010\u0003\u0082\u0002\u0007\n\u0005\u0008\u009920\u0001"}, d2={"crossInline", "", "block", "Lkotlin/Function0;", "directLambdaCall", "funInterface", "LFunInterface;", "inline", "noinline", "noninline"})
+
+  // access flags 0x19
+  // signature (Lkotlin/jvm/functions/Function0<Lkotlin/Unit;>;)V
+  // declaration: void inline(kotlin.jvm.functions.Function0<kotlin.Unit>)
+  public final static inline(Lkotlin/jvm/functions/Function0;)V
+    // annotable parameter count: 1 (invisible)
+    @Lorg/jetbrains/annotations/NotNull;() // invisible, parameter 0
+   L0
+    ALOAD 0
+    LDC "block"
+    INVOKESTATIC kotlin/jvm/internal/Intrinsics.checkNotNullParameter (Ljava/lang/Object;Ljava/lang/String;)V
+    ICONST_0
+    ISTORE 1
+   L1
+    LINENUMBER 2 L1
+    ALOAD 0
+    INVOKEINTERFACE kotlin/jvm/functions/Function0.invoke ()Ljava/lang/Object; (itf)
+    POP
+    RETURN
+   L2
+    LOCALVARIABLE $i$f$inline I L1 L2 1
+    LOCALVARIABLE block Lkotlin/jvm/functions/Function0; L0 L2 0
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x19
+  // signature (Lkotlin/jvm/functions/Function0<Lkotlin/Unit;>;)V
+  // declaration: void crossInline(kotlin.jvm.functions.Function0<kotlin.Unit>)
+  public final static crossInline(Lkotlin/jvm/functions/Function0;)V
+    // annotable parameter count: 1 (invisible)
+    @Lorg/jetbrains/annotations/NotNull;() // invisible, parameter 0
+   L0
+    ALOAD 0
+    LDC "block"
+    INVOKESTATIC kotlin/jvm/internal/Intrinsics.checkNotNullParameter (Ljava/lang/Object;Ljava/lang/String;)V
+    ICONST_0
+    ISTORE 1
+   L1
+    LINENUMBER 5 L1
+    ALOAD 0
+    INVOKEINTERFACE kotlin/jvm/functions/Function0.invoke ()Ljava/lang/Object; (itf)
+    POP
+    RETURN
+   L2
+    LOCALVARIABLE $i$f$crossInline I L1 L2 1
+    LOCALVARIABLE block Lkotlin/jvm/functions/Function0; L0 L2 0
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x19
+  // signature (Lkotlin/jvm/functions/Function0<Lkotlin/Unit;>;)V
+  // declaration: void noinline(kotlin.jvm.functions.Function0<kotlin.Unit>)
+  public final static noinline(Lkotlin/jvm/functions/Function0;)V
+    // annotable parameter count: 1 (invisible)
+    @Lorg/jetbrains/annotations/NotNull;() // invisible, parameter 0
+   L0
+    ALOAD 0
+    LDC "block"
+    INVOKESTATIC kotlin/jvm/internal/Intrinsics.checkNotNullParameter (Ljava/lang/Object;Ljava/lang/String;)V
+    ICONST_0
+    ISTORE 1
+   L1
+    LINENUMBER 8 L1
+    ALOAD 0
+    INVOKEINTERFACE kotlin/jvm/functions/Function0.invoke ()Ljava/lang/Object; (itf)
+    POP
+    RETURN
+   L2
+    LOCALVARIABLE $i$f$noinline I L1 L2 1
+    LOCALVARIABLE block Lkotlin/jvm/functions/Function0; L0 L2 0
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x19
+  // signature (Lkotlin/jvm/functions/Function0<Lkotlin/Unit;>;)V
+  // declaration: void noninline(kotlin.jvm.functions.Function0<kotlin.Unit>)
+  public final static noninline(Lkotlin/jvm/functions/Function0;)V
+    // annotable parameter count: 1 (invisible)
+    @Lorg/jetbrains/annotations/NotNull;() // invisible, parameter 0
+   L0
+    ALOAD 0
+    LDC "block"
+    INVOKESTATIC kotlin/jvm/internal/Intrinsics.checkNotNullParameter (Ljava/lang/Object;Ljava/lang/String;)V
+   L1
+    LINENUMBER 9 L1
+    ALOAD 0
+    INVOKEINTERFACE kotlin/jvm/functions/Function0.invoke ()Ljava/lang/Object; (itf)
+    POP
+    RETURN
+   L2
+    LOCALVARIABLE block Lkotlin/jvm/functions/Function0; L0 L2 0
+    MAXSTACK = 2
+    MAXLOCALS = 1
+
+  // access flags 0x19
+  public final static funInterface(LFunInterface;)V
+    // annotable parameter count: 1 (invisible)
+    @Lorg/jetbrains/annotations/NotNull;() // invisible, parameter 0
+   L0
+    ALOAD 0
+    LDC "block"
+    INVOKESTATIC kotlin/jvm/internal/Intrinsics.checkNotNullParameter (Ljava/lang/Object;Ljava/lang/String;)V
+   L1
+    LINENUMBER 12 L1
+    ALOAD 0
+    INVOKEINTERFACE FunInterface.call ()V (itf)
+    RETURN
+   L2
+    LOCALVARIABLE block LFunInterface; L0 L2 0
+    MAXSTACK = 2
+    MAXLOCALS = 1
+
+  // access flags 0x19
+  public final static directLambdaCall()V
+   L0
+    LINENUMBER 19 L0
+    INVOKESTATIC Lambda_typesKt.directLambdaCall$lambda-0 ()V
+   L1
+    LINENUMBER 22 L1
+    RETURN
+    MAXSTACK = 0
+    MAXLOCALS = 0
+
+  // access flags 0x1A
+  private final static directLambdaCall$lambda-0()V
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+   L0
+    LINENUMBER 20 L0
+    LDC "raw lambda expression"
+    INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/Object;)V
+   L1
+    LINENUMBER 21 L1
+    RETURN
+    MAXSTACK = 2
+    MAXLOCALS = 0
+}

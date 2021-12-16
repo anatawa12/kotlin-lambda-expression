@@ -8,6 +8,7 @@ DIR="$(dirname "$0")"
 FILES=$(cat <<EOF
 crossinline-ability
 lambda-expandation
+lambda-types
 EOF
 );
 
