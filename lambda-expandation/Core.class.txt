@@ -2,118 +2,158 @@
 // access flags 0x31
 public final class Core {
 
-  // compiled from: lambda-types.kt
+  // compiled from: lambda-expandation.kt
   // debug info: SMAP
-lambda-types.kt
+lambda-expandation.kt
 Kotlin
 *S Kotlin
 *F
-+ 1 lambda-types.kt
++ 1 lambda-expandation.kt
 Core
 *L
-1#1,28:1
-19#1:29
-20#1:30
-21#1:31
+1#1,38:1
+29#1:39
+30#1:40
+31#1:41
 *S KotlinDebug
 *F
-+ 1 lambda-types.kt
++ 1 lambda-expandation.kt
 Core
 *L
-5#1:29
-7#1:30
-9#1:31
+4#1:39
+8#1:40
+12#1:41
 *E
 
 
-  @Lkotlin/Metadata;(mv={1, 6, 0}, k=2, xi=48, d1={"\u0000\u0018\n\u0000\n\u0002\u0010\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u001a\u0006\u0010\u0000\u001a\u00020\u0001\u001a\u001c\u0010\u0002\u001a\u00020\u00012\u000e\u0008\u0004\u0010\u0003\u001a\u0008\u0012\u0004\u0012\u00020\u00010\u0004H\u0086\u0008\u00f8\u0001\u0000\u001a\u000e\u0010\u0005\u001a\u00020\u00012\u0006\u0010\u0003\u001a\u00020\u0006\u001a\u001a\u0010\u0007\u001a\u00020\u00012\u000c\u0010\u0003\u001a\u0008\u0012\u0004\u0012\u00020\u00010\u0004H\u0086\u0008\u00f8\u0001\u0000\u001a\u001c\u0010\u0008\u001a\u00020\u00012\u000e\u0008\u0008\u0010\u0003\u001a\u0008\u0012\u0004\u0012\u00020\u00010\u0004H\u0086\u0008\u00f8\u0001\u0000\u001a\u0014\u0010\u0009\u001a\u00020\u00012\u000c\u0010\u0003\u001a\u0008\u0012\u0004\u0012\u00020\u00010\u0004\u0082\u0002\u0007\n\u0005\u0008\u009920\u0001"}, d2={"caller", "", "crossInline", "block", "Lkotlin/Function0;", "funInterface", "LFunInterface;", "inline", "noinline", "noninline"})
+  @Lkotlin/Metadata;(mv={1, 6, 0}, k=2, xi=48, d1={"\u0000\u0018\n\u0000\n\u0002\u0010\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u001a\u0006\u0010\u0000\u001a\u00020\u0001\u001a\u0006\u0010\u0002\u001a\u00020\u0001\u001a\u0006\u0010\u0003\u001a\u00020\u0001\u001a\u0006\u0010\u0004\u001a\u00020\u0001\u001a\u0006\u0010\u0005\u001a\u00020\u0001\u001a\u0006\u0010\u0006\u001a\u00020\u0001\u001a\u001c\u0010\u0007\u001a\u00020\u00012\u000e\u0008\u0004\u0010\u0008\u001a\u0008\u0012\u0004\u0012\u00020\u00010\u0009H\u0086\u0008\u00f8\u0001\u0000\u001a\u000e\u0010\n\u001a\u00020\u00012\u0006\u0010\u0008\u001a\u00020\u000b\u001a\u001a\u0010\u000c\u001a\u00020\u00012\u000c\u0010\u0008\u001a\u0008\u0012\u0004\u0012\u00020\u00010\u0009H\u0086\u0008\u00f8\u0001\u0000\u001a\u001c\u0010\r\u001a\u00020\u00012\u000e\u0008\u0008\u0010\u0008\u001a\u0008\u0012\u0004\u0012\u00020\u00010\u0009H\u0086\u0008\u00f8\u0001\u0000\u001a\u0014\u0010\u000e\u001a\u00020\u00012\u000c\u0010\u0008\u001a\u0008\u0012\u0004\u0012\u00020\u00010\u0009\u0082\u0002\u0007\n\u0005\u0008\u009920\u0001"}, d2={"callCrossInline", "", "callFunInterface", "callInline", "callLambdaDirectly", "callNoinline", "callNoninline", "crossInline", "block", "Lkotlin/Function0;", "funInterface", "LFunInterface;", "inline", "noinline", "noninline"})
 
   @Lkotlin/jvm/JvmName;(name="Core") // invisible
   // access flags 0x18
-  final static INNERCLASS Core$caller$3 null null
+  final static INNERCLASS Core$callNoinline$1 null null
   // access flags 0x18
-  final static INNERCLASS Core$caller$4 null null
+  final static INNERCLASS Core$callNoninline$1 null null
 
   // access flags 0x19
-  public final static caller()V
+  public final static callInline()V
    L0
-    LINENUMBER 5 L0
+    LINENUMBER 4 L0
     ICONST_0
     ISTORE 0
    L1
-    LINENUMBER 29 L1
+    LINENUMBER 39 L1
     ICONST_0
     ISTORE 1
    L2
     GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
    L3
-    LINENUMBER 5 L3
+    LINENUMBER 4 L3
     LDC "inline"
     INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/Object;)V
    L4
-    LINENUMBER 5 L4
+    LINENUMBER 4 L4
     NOP
    L5
-    LINENUMBER 7 L5
+    LINENUMBER 5 L5
+    RETURN
+    LOCALVARIABLE $i$a$-inline-Core$callInline$1 I L2 L5 1
+    LOCALVARIABLE $i$f$inline I L1 L5 0
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x19
+  public final static callCrossInline()V
+   L0
+    LINENUMBER 8 L0
     ICONST_0
     ISTORE 0
-   L6
-    LINENUMBER 30 L6
+   L1
+    LINENUMBER 40 L1
     ICONST_0
     ISTORE 1
-   L7
+   L2
     GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
-   L8
-    LINENUMBER 7 L8
+   L3
+    LINENUMBER 8 L3
     LDC "crossInline"
     INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/Object;)V
-   L9
-    LINENUMBER 7 L9
+   L4
+    LINENUMBER 8 L4
     NOP
-   L10
-    LINENUMBER 9 L10
-    GETSTATIC Core$caller$3.INSTANCE : LCore$caller$3;
+   L5
+    LINENUMBER 9 L5
+    RETURN
+    LOCALVARIABLE $i$a$-crossInline-Core$callCrossInline$1 I L2 L5 1
+    LOCALVARIABLE $i$f$crossInline I L1 L5 0
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x19
+  public final static callNoinline()V
+   L0
+    LINENUMBER 12 L0
+    GETSTATIC Core$callNoinline$1.INSTANCE : LCore$callNoinline$1;
     CHECKCAST kotlin/jvm/functions/Function0
     ASTORE 0
-   L11
+   L1
     ICONST_0
     ISTORE 1
-   L12
-    LINENUMBER 31 L12
+   L2
+    LINENUMBER 41 L2
     ALOAD 0
     INVOKEINTERFACE kotlin/jvm/functions/Function0.invoke ()Ljava/lang/Object; (itf)
     POP
-   L13
-    LINENUMBER 10 L13
-    GETSTATIC Core$caller$4.INSTANCE : LCore$caller$4;
+   L3
+    LINENUMBER 13 L3
+    RETURN
+    LOCALVARIABLE $i$f$noinline I L2 L3 1
+    LOCALVARIABLE block$iv Lkotlin/jvm/functions/Function0; L1 L3 0
+    MAXSTACK = 1
+    MAXLOCALS = 2
+
+  // access flags 0x19
+  public final static callNoninline()V
+   L0
+    LINENUMBER 16 L0
+    GETSTATIC Core$callNoninline$1.INSTANCE : LCore$callNoninline$1;
     CHECKCAST kotlin/jvm/functions/Function0
     INVOKESTATIC Core.noninline (Lkotlin/jvm/functions/Function0;)V
+   L1
+    LINENUMBER 17 L1
+    RETURN
+    MAXSTACK = 1
+    MAXLOCALS = 0
+
+  // access flags 0x19
+  public final static callFunInterface()V
     INVOKEDYNAMIC call()LFunInterface; [
       // handle kind 0x6 : INVOKESTATIC
       java/lang/invoke/LambdaMetafactory.metafactory(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
       // arguments:
       ()V, 
       // handle kind 0x6 : INVOKESTATIC
-      Core.caller$lambda-2()V, 
+      Core.callFunInterface$lambda-2()V, 
       ()V
     ]
-   L14
-    LINENUMBER 12 L14
+   L0
+    LINENUMBER 20 L0
     INVOKESTATIC Core.funInterface (LFunInterface;)V
-   L15
-    LINENUMBER 14 L15
-    INVOKESTATIC Core.caller$lambda-3 ()V
-   L16
-    LINENUMBER 17 L16
+   L1
+    LINENUMBER 21 L1
     RETURN
-    LOCALVARIABLE $i$a$-inline-Core$caller$1 I L2 L5 1
-    LOCALVARIABLE $i$f$inline I L1 L5 0
-    LOCALVARIABLE $i$a$-crossInline-Core$caller$2 I L7 L10 1
-    LOCALVARIABLE $i$f$crossInline I L6 L10 0
-    LOCALVARIABLE $i$f$noinline I L12 L13 1
-    LOCALVARIABLE block$iv Lkotlin/jvm/functions/Function0; L11 L13 0
-    MAXSTACK = 2
-    MAXLOCALS = 2
+    MAXSTACK = 1
+    MAXLOCALS = 0
+
+  // access flags 0x19
+  public final static callLambdaDirectly()V
+   L0
+    LINENUMBER 24 L0
+    INVOKESTATIC Core.callLambdaDirectly$lambda-3 ()V
+   L1
+    LINENUMBER 27 L1
+    RETURN
+    MAXSTACK = 0
+    MAXLOCALS = 0
 
   // access flags 0x19
   // signature (Lkotlin/jvm/functions/Function0<Lkotlin/Unit;>;)V
@@ -128,7 +168,7 @@ Core
     ICONST_0
     ISTORE 1
    L1
-    LINENUMBER 19 L1
+    LINENUMBER 29 L1
     ALOAD 0
     INVOKEINTERFACE kotlin/jvm/functions/Function0.invoke ()Ljava/lang/Object; (itf)
     POP
@@ -152,7 +192,7 @@ Core
     ICONST_0
     ISTORE 1
    L1
-    LINENUMBER 20 L1
+    LINENUMBER 30 L1
     ALOAD 0
     INVOKEINTERFACE kotlin/jvm/functions/Function0.invoke ()Ljava/lang/Object; (itf)
     POP
@@ -176,7 +216,7 @@ Core
     ICONST_0
     ISTORE 1
    L1
-    LINENUMBER 21 L1
+    LINENUMBER 31 L1
     ALOAD 0
     INVOKEINTERFACE kotlin/jvm/functions/Function0.invoke ()Ljava/lang/Object; (itf)
     POP
@@ -198,7 +238,7 @@ Core
     LDC "block"
     INVOKESTATIC kotlin/jvm/internal/Intrinsics.checkNotNullParameter (Ljava/lang/Object;Ljava/lang/String;)V
    L1
-    LINENUMBER 22 L1
+    LINENUMBER 32 L1
     ALOAD 0
     INVOKEINTERFACE kotlin/jvm/functions/Function0.invoke ()Ljava/lang/Object; (itf)
     POP
@@ -217,7 +257,7 @@ Core
     LDC "block"
     INVOKESTATIC kotlin/jvm/internal/Intrinsics.checkNotNullParameter (Ljava/lang/Object;Ljava/lang/String;)V
    L1
-    LINENUMBER 23 L1
+    LINENUMBER 33 L1
     ALOAD 0
     INVOKEINTERFACE FunInterface.call ()V (itf)
     RETURN
@@ -227,27 +267,27 @@ Core
     MAXLOCALS = 1
 
   // access flags 0x1A
-  private final static caller$lambda-2()V
+  private final static callFunInterface$lambda-2()V
     GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
    L0
-    LINENUMBER 12 L0
+    LINENUMBER 20 L0
     LDC "funInterface"
     INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/Object;)V
    L1
-    LINENUMBER 12 L1
+    LINENUMBER 20 L1
     RETURN
     MAXSTACK = 2
     MAXLOCALS = 0
 
   // access flags 0x1A
-  private final static caller$lambda-3()V
+  private final static callLambdaDirectly$lambda-3()V
     GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
    L0
-    LINENUMBER 15 L0
+    LINENUMBER 25 L0
     LDC "raw lambda expression"
     INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/Object;)V
    L1
-    LINENUMBER 16 L1
+    LINENUMBER 26 L1
     RETURN
     MAXSTACK = 2
     MAXLOCALS = 0

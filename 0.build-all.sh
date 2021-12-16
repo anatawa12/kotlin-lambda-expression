@@ -7,7 +7,7 @@ DIR="$(dirname "$0")"
 # The list of files to build
 FILES=$(cat <<EOF
 crossinline-ability
-lambda-types
+lambda-expandation
 EOF
 );
 
