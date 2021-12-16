@@ -1,0 +1,42 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: git remote set-branches --add origin built
+      - run: git fetch --depth=2 origin
+      - uses: anatawa12/something-releaser@v2
+      - uses: actions/setup-java@v2
+        with:
+          distribution: temurin
+          java-version: '8'
+      - uses: fwilhe2/setup-kotlin@main
+        with:
+          version: "1.6.10"
+
+      - name: Build Tools
+        run: ./gradlew build
+        working-directory: tools
+      - name: Build
+        run: ./0.build-all.sh
+      - name: Edit gitignore
+        run: sed -i -n '/REMOVE_BELOW_FOR_PUBLISH/q;p' .gitignore
+      - name: Publish
+        run: |-
+          set-git-user anatawa12-bot
+          HASH="$(git rev-parse HEAD)"
+
+          # checkout built at origin/built witout chanigng local tree
+          git branch built origin/built
+          git symbolic-ref HEAD refs/heads/built
+
+          # add modified files and commit
+          git add .
+          git reset --soft $(git commit-tree -p HEAD -p $HASH -m "release at $HASH" $(git write-tree))
+          # create push
+          git push

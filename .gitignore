@@ -4,3 +4,4 @@
 # REMOVE_BELOW_FOR_PUBLISH
 /*/
 !/tools
+!/.github
