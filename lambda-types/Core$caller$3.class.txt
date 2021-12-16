@@ -1,0 +1,67 @@
+// class version 52.0 (52)
+// access flags 0x30
+// signature Lkotlin/jvm/internal/Lambda;Lkotlin/jvm/functions/Function0<Lkotlin/Unit;>;
+// declaration: Core$caller$3 extends kotlin.jvm.internal.Lambda implements kotlin.jvm.functions.Function0<kotlin.Unit>
+final class Core$caller$3 extends kotlin/jvm/internal/Lambda implements kotlin/jvm/functions/Function0 {
+
+  // compiled from: lambda-types.kt
+  OUTERCLASS Core caller ()V
+
+  @Lkotlin/Metadata;(mv={1, 6, 0}, k=3, xi=48, d1={"\u0000\u0008\n\u0000\n\u0002\u0010\u0002\n\u0000\u0010\u0000\u001a\u00020\u0001H\n\u00a2\u0006\u0002\u0008\u0002"}, d2={"<anonymous>", "", "invoke"})
+  // access flags 0x18
+  final static INNERCLASS Core$caller$3 null null
+
+  // access flags 0x19
+  public final static LCore$caller$3; INSTANCE
+
+  // access flags 0x0
+  <init>()V
+   L0
+    ALOAD 0
+    ICONST_0
+    INVOKESPECIAL kotlin/jvm/internal/Lambda.<init> (I)V
+    RETURN
+   L1
+    LOCALVARIABLE this LCore$caller$3; L0 L1 0
+    MAXSTACK = 2
+    MAXLOCALS = 1
+
+  // access flags 0x11
+  public final invoke()V
+   L0
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+   L1
+    LINENUMBER 9 L1
+    LDC "noinline"
+    INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/Object;)V
+   L2
+    LINENUMBER 9 L2
+    RETURN
+   L3
+    LOCALVARIABLE this LCore$caller$3; L0 L3 0
+    MAXSTACK = 2
+    MAXLOCALS = 1
+
+  // access flags 0x1041
+  public synthetic bridge invoke()Ljava/lang/Object;
+   L0
+    LINENUMBER 9 L0
+    ALOAD 0
+    INVOKEVIRTUAL Core$caller$3.invoke ()V
+    GETSTATIC kotlin/Unit.INSTANCE : Lkotlin/Unit;
+    ARETURN
+   L1
+    LOCALVARIABLE this LCore$caller$3; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x8
+  static <clinit>()V
+    NEW Core$caller$3
+    DUP
+    INVOKESPECIAL Core$caller$3.<init> ()V
+    PUTSTATIC Core$caller$3.INSTANCE : LCore$caller$3;
+    RETURN
+    MAXSTACK = 2
+    MAXLOCALS = 0
+}

@@ -1,0 +1,60 @@
+// class version 52.0 (52)
+// access flags 0x31
+public final class Core$caller$$inlined$crossInline$1 extends SomeHandler {
+
+  // compiled from: crossinline-ability.kt
+  // debug info: SMAP
+crossinline-ability.kt
+Kotlin
+*S Kotlin
+*F
++ 1 crossinline-ability.kt
+Core$crossInline$1
++ 2 crossinline-ability.kt
+Core
+*L
+1#1,17:1
+11#2:18
+*E
+
+  OUTERCLASS Core caller ()V
+
+  @Lkotlin/Metadata;(mv={1, 6, 0}, k=1, xi=48, d1={"\u0000\u000f\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002*\u0001\u0000\u0008\n\u0018\u00002\u00020\u0001J\u0008\u0010\u0002\u001a\u00020\u0003H\u0016\u00b8\u0006\u0000"}, d2={"Core$crossInline$1", "LSomeHandler;", "handle", ""})
+  // access flags 0x19
+  public final static INNERCLASS Core$caller$$inlined$crossInline$1 null null
+
+  // access flags 0x1
+  public <init>()V
+   L0
+    LINENUMBER 7 L0
+    ALOAD 0
+    INVOKESPECIAL SomeHandler.<init> ()V
+    RETURN
+   L1
+    LOCALVARIABLE this LCore$caller$$inlined$crossInline$1; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1
+  public handle()V
+   L0
+    LINENUMBER 8 L0
+    ICONST_0
+    ISTORE 1
+   L1
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+   L2
+    LINENUMBER 18 L2
+    LDC "crossInline"
+    INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/Object;)V
+   L3
+    LINENUMBER 18 L3
+    NOP
+   L4
+    RETURN
+   L5
+    LOCALVARIABLE $i$a$-crossInline-Core$caller$1 I L1 L4 1
+    LOCALVARIABLE this LCore$caller$$inlined$crossInline$1; L0 L5 0
+    MAXSTACK = 2
+    MAXLOCALS = 2
+}
